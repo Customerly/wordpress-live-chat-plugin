@@ -2,7 +2,7 @@
 /*
 Plugin Name: Live Chat by Customerly - Live Chat Free Suite
 Description: Live Chat Free for your website to talk with your visitors in real-time for Free! Acquire leads, craft and deliver newsletter and funnels to increase sales.
-Version: 2.0.3
+Version: 2.0.4
 Author: Customerly.io
 Author URI: https://www.customerly.io/en/customer-support-live-chat-software?utm_medium=referral&utm_source=wordpress&utm_campaign=wordpressAuthorURI
 */
