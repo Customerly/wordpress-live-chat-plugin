@@ -6,7 +6,7 @@ Customerly Live Chat plugin for your Wordpress application.
 ## Deployment
 
 To deploy this project modify the readme.txt version and commit. 
-Our Continuos Integration will automatically push the plugin in the wordpress SVN system.
+Our Continuous Integration will automatically push the plugin in the wordpress SVN system.
 
 
 ## Contributing
