@@ -1,5 +1,5 @@
 
-# wordpress-live-chat-plugin
+# Wordpress Live Chat Plugin
 
 Customerly Live Chat plugin for your Wordpress application.
 
