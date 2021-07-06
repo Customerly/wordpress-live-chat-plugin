@@ -4,7 +4,7 @@ Donate link: https://www.customerly.io/?utm_medium=wp_plugin&utm_source=wordpres
 Tags: live chat, live support, chat plugin, live help, WordPress live chat, chat, live chat plugin, live support plugin, live chat support plugin, chat plugin, support plugin, live help
 Requires at least: 3.0
 Tested up to: 5.7
-Stable tag: 2.0.4
+Stable tag: 2.1
 Requires PHP: 5.4
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html

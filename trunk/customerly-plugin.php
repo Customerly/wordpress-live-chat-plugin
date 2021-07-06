@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: Live Chat by Customerly - Live Chat Free Suite
-Description: Live Chat Free for your website to talk with your visitors in real-time for Free! Acquire leads, craft and deliver newsletter and funnels to increase sales.
-Version: 2.0.4
-Author: Customerly.io
-Author URI: https://www.customerly.io/en/customer-support-live-chat-software?utm_medium=referral&utm_source=wordpress&utm_campaign=wordpressAuthorURI
+Plugin Name: Customerly - Live Chat, Email Marketing, CRM
+Description: The Live Chat with Super Powers is here. Add Free Live Chat to your WordPress and talk with your visitors, generate leads and increase sales.
+Version: 2.1
+Author: Customerly
+Author URI: https://www.customerly.io/?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wordpress_author_uri
 */
 
 
