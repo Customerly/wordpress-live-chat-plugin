@@ -28,39 +28,46 @@
     border-color: transparent !important;
     width: 100%;
     border-radius: 8px !important;
-    line-height: 25px  !important;
-    font-size: 18px  !important;
+    line-height: 25px !important;
+    font-size: 18px !important;
 
 }
-.input-field{
+
+.input-field {
     width: 100%;
     padding: 8px 16px !important;
     margin: 4px 0;
     border-radius: 8px !important;
     border: 1px solid #7e899338 !important;
 }
-.input-field:focus{
+
+.input-field:focus {
     border-color: #4fbdff !important;
     box-shadow: 0 0 0 1px #4fbdff !important;
 }
-.app-container{
+
+.app-container {
     border: 1px solid gainsboro;
     border-radius: 8px;
     margin: 10px 0;
     cursor: pointer;
     transition: all 0.4s ease-in-out;
 }
-.app-container:hover{
+
+.app-container:hover {
     border-color: #4fbdff !important;
     transition: all 0.4s ease-in-out;
 }
-.app-name{
+
+.app-name {
 
 }
-.app-id{
+
+.app-id {
     color: gray;
     font-size: 10px;
 }
+
 h1 {
     line-height: 1.3em;
 }
@@ -80,9 +87,7 @@ h1 {
 }
 
 .icon-customerly {
-    padding-top: 20px;
-    margin-bottom: 20px;
-    width: 60px;
+    width: 80px;
 }
 
 .mobile-preview {
@@ -242,12 +247,14 @@ Pro feature page
     text-align: center;
     font-size: 18px !important;
 }
+
 .lds-ring {
     display: inline-block;
     position: relative;
     width: 50px;
     height: 50px;
 }
+
 .lds-ring div {
     box-sizing: border-box;
     display: block;
@@ -260,15 +267,19 @@ Pro feature page
     animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
     border-color: #19c9ff transparent transparent transparent;
 }
+
 .lds-ring div:nth-child(1) {
     animation-delay: -0.45s;
 }
+
 .lds-ring div:nth-child(2) {
     animation-delay: -0.3s;
 }
+
 .lds-ring div:nth-child(3) {
     animation-delay: -0.15s;
 }
+
 @keyframes lds-ring {
     0% {
         transform: rotate(0deg);

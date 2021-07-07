@@ -1,10 +1,10 @@
-=== Customerly - Live Chat, Email Marketing, CRM ===
+=== Live Chat with Superpowers - Free Live Chat by Customerly ===
 Contributors: lucamicheli
-Donate link: https://www.customerly.io/?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wordpress_donate_url
-Tags: live chat, live support, chat plugin, live help, WordPress live chat, chat, live chat plugin, live support plugin, live chat support plugin, chat plugin, support plugin, live help
+Donate link: https://www.customerly.io/features/live-chat/?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wordpress_donate_url
+Tags: live chat, free live chat, chat plugin, video live chat, live help, WordPress live chat, chat, live chat plugin, live support plugin, live chat support plugin, chat plugin, support plugin, live help
 Requires at least: 3.0
 Tested up to: 5.7
-Stable tag: 2.1
+Stable tag: 2.2
 Requires PHP: 5.4
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -28,11 +28,35 @@ The [Live Chat Free](https://www.customerly.io/features/live-chat-plugin-for-wor
 Help your customers find their way with our AI-integrated live chat.
 
 [→ Live Chat](https://www.customerly.io/features/live-chat/?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description)
+
+Save time with canned responses
+Reduce workloads for your team and quickly reply to repeated requests
+
 [→ Canned Responses](https://www.customerly.io/features/live-chat/#canned-responses?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description)
+
+Answer faster with chat previews
+Sneak-peek your customers' messages while they are still typing. You can search for the perfect answer to quickly respond
+
 [→ Chat Previews](https://www.customerly.io/features/live-chat/#chat-previews?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description)
+
+Enrich your chat messages
+Not just plain text, use our built-in editor to create compelling messages with font styles, inline images and much more
+
 [→ Rich Chat Messages](https://www.customerly.io/features/live-chat/#rich-messages?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description)
+
+Not just text, share any media
+Drag & drop any file to send them on chat. Your customers will be able to share easily their documents too, like screenshots, PDF quotes, ZIP, videos and much more...
+
 [→ Chat Attachments](https://www.customerly.io/features/live-chat/#file-sharing?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description)
+
+Find any past chat with chat history
+In your chat history archive, you can find easily any past conversation that includes a certain phrase. Check also a past conversation for a specific customer
 [→ Chat Archives](https://www.customerly.io/features/live-chat/#chat-archives?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description)
+
+
+Enable notifications to instantly reply to your live chats
+Do not miss any opportunity by turning on web, mobile or email notifications every time you get a new chat
+
 [→ Chat Notifications](https://www.customerly.io/features/live-chat/#chat-notifications?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description)
 
 ==🎥 Video live chat & screen share==
@@ -207,10 +231,10 @@ Yes, you can customize the live chat color, name, welcome message, position on y
 Our team have created all the best practices to be fully compliant with the GDPR rules. Also you are covered. Check out https://www.customerly.io/gdpr for more info.
 
 = Can I use Customerly as Lead generation tool? =
-Yes you can use the live chat to collect new leads, or you can even create bridges between your Forms and Customerly Funnels.
+Yes you can use the live chat to collect new leads, or you can even create bridges between your Forms and [Customerly Funnels](https://www.customerly.io/features/marketing-funnel/?utm_source=wordpress&utm_medium=plugin&utm_campaign=faqs).
 
 = I've got my Customerly Funnel ready, how can I connect it to my landing pages? =
-Check our Elementor and MailMunch integrations. If you use Contact Form 7, please check WPFusion to connect them.
+Check our CF7 (Contact Form 7), Elementor and MailMunch integrations. If you use Contact Form 7, we now have a direct integration.
 
 = Can I request visitors' email within the live chat? =
 
@@ -236,12 +260,12 @@ With the power of Customerly your marketing campaigns boundaries are endless.
 
 Once you have your account you can easily build emails with our template builder. It's easy and perfectly integrated with your blog.
 You will have everything integrated in one single platform. Live Chat, Email marketing, Customer Segmentation, Survey and Satisfaction.
-More Info: [Customerly Email Marketing Campaigns](https://www.customerly.io/go/email?utm_source=referral&utm_medium=wordpress&utm_campaign=wordpressPresentationPageEmailCampaings2)
+More Info: [Customerly Funnels](https://www.customerly.io/features/email-marketing/?utm_source=wordpress&utm_medium=plugin&utm_campaign=faqs)
 
 = How can I use it to track and analyze wooCommerce users? =
 
 Customerly plugin automatically tracks wooCommerce Users and you can create newsletter and automations easily.
-More Info: [Customerly Marketing Automations](https://www.customerly.io/go/marketing?utm_source=referral&utm_medium=wordpress&utm_campaign=wordpressPresentationPageAutomations2)
+More Info: [Customerly Marketing Automations](https://www.customerly.io/features/marketing-automation/?utm_source=wordpress&utm_medium=plugin&utm_campaign=faqs)
 
 = Do you have mobile applications to manage the customer service live chat? =
 
@@ -261,28 +285,29 @@ It's extremely easy with Customerly to build and send survey to all your users. 
 
 = What's the difference from others? =
 
-We do offer a different services from Intercom, ActiveCampaign, Zendesk, LiveChat and Crisp. The power of Customerly is behind its full integration and cooperation between the services.
+The Customerly Live Chat with Superpowers are different from Tidio, Intercom, ActiveCampaign, Zendesk, LiveChat and Crisp.
 
-You can collect more leads and with the power of Customer Intelligence you can create as many segments you need. 
-On those segments you can send an email newsletter or create a funnel. 
-
-You can also run surveys or get customers' satisfaction during the time.
+You can collect more leads and with the power of Customer Intelligence you can create as many contact lists you want.
+Once created the contact lists, you can send newsletters, funnels, nps and surveys.
 
 
 
 == Screenshots ==
 
-1. Your New Beautiful Live Chat and Dashboard. To keep everything under control.
-2. Live Chat Automated Questions. Ask automatically relevant questions to profile your leads.
-3. Your Live Chat has a Video call and screen sharing feature without install any other software. Call your visitors in your website.
-4. Ask your Visitors their email after they open a new conversation in your Live Chat.
-5. Include Facebook Messenger in your dashboard. All your messages will be on the same place. No matter if they come from the Live Chat of your Facebook Page
-6. Add tags to your live chat conversations leads.
-7. Read your customers message BEFORE they send it. The most requested Live Chat feature.
-8. Set your Office Hours and show/hide the live chat based on them.
-9. Use canned responses to quickly reply to your live chat most frequent messages.
-10. Create a series of emails with an easy-to-use visual funnel template builder
-11. Be professional. Remove Customerly Branding for your Live Chat.
+1. Give your customers the support they deserve with your new Free Live Chat
+2. Keep live chat under control with the conversation inbox.
+3. Customize your live chat as you prefer. Change Live Chat color, Icon and much more.
+4. Start a Video Live Chat with your customers with just one click.
+5. Smart assign your live chat automatically with your rules.
+6. Engage your visitors with live chat triggers and get more leads.
+7. Let your user self serve and we are going to replay automatically with AI to your live chat.
+8. Craft beautiful email marketing templates
+9. Use Marketing Automation to automate your communications and grow on autopilot.
+10. Improve your customer satisfaction.
+11. Segment your contacts in seconds based on your rules.
+12. Organize your customers' data with CRM
+13. Gather feedback in seconds via live chat surveys
+14. Live chat reports to learn your team performances.
 
 
 
@@ -316,9 +341,8 @@ You can also run surveys or get customers' satisfaction during the time.
 == Changelog ==
 We are constantly working on this plugin to improve the Live Chat features. In this version we fixed a series of bug and included the new live chat version 2.0.
 This includes:
-- A Brand New Live Chat UI
-- Included Help Center in the Live Chat
-- Calendly Integration
-- Video Live Chat
+- Improved performances of the Live Chat
+- Added full support for Contact Form 7
+
 
 == Upgrade Notice ==

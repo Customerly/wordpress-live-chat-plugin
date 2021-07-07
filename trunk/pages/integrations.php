@@ -1,5 +1,4 @@
 <?php
-include_once("headers.php");
 
 $options = get_option('customerly_settings');
 
@@ -11,6 +10,8 @@ if (isset($_GET['appkey'])) {
     }
 }
 
+$plugins_url = plugins_url();
+$baseURL = $plugins_url . "/customerly/";
 
 ?>
 
@@ -21,12 +22,6 @@ if (isset($_GET['appkey'])) {
         services.</h3>
 </div>
 
-<script>
-    jQuery(document).ready(function () {
-        send_event('Integrations Visited',0);
-    });
-</script>
-
 
 <div class="content intgrations">
 
@@ -34,7 +29,7 @@ if (isset($_GET['appkey'])) {
     <div class="section-item integration-item">
 
         <img class="integration-icon"
-             src="<?php echo(plugins_url("/assets/img/integrations/mailmunch.jpg", __FILE__)); ?>">
+             src="<?php echo(plugins_url("../assets/img/integrations/mailmunch.jpg", __FILE__)); ?>">
         <h1>Mailmunch <a href="https://wordpress.org/plugins/mailmunch/" target="_blank">
                 <div class="dashicons dashicons-external"></div>
             </a></h1>
@@ -45,7 +40,7 @@ if (isset($_GET['appkey'])) {
                 or Funnels</p>
 
             <b>HTTP Custom POST URL </b>
-            <div class="integration-url"><?php echo __(plugins_url("form.php", __FILE__)); ?></div>
+            <div class="integration-url"><?php echo($baseURL . 'form.php'); ?></div>
         </div>
 
 
@@ -58,7 +53,7 @@ if (isset($_GET['appkey'])) {
     <div class="section-item integration-item">
 
         <img class="integration-icon"
-             src="<?php echo(plugins_url("/assets/img/integrations/elementor.jpg", __FILE__)); ?>">
+             src="<?php echo(plugins_url("../assets/img/integrations/elementor.jpg", __FILE__)); ?>">
         <h1>Elementor <a
                     href="https://wordpress.org/plugins/elementor/" target="_blank">
                 <div class="dashicons dashicons-external"></div>
@@ -68,7 +63,7 @@ if (isset($_GET['appkey'])) {
                 Email
                 Campaigns or Funnels</p>
             <b>Webhook POST URL</b>
-            <div class="integration-url"><?php echo __(plugins_url("elementor.php", __FILE__)); ?></div>
+            <div class="integration-url"><?php echo($baseURL . 'elementor.php'); ?></div>
         </div>
 
         <a class="button button-start"
@@ -79,7 +74,7 @@ if (isset($_GET['appkey'])) {
     <div class="section-item integration-item">
 
         <img class="integration-icon"
-             src="<?php echo(plugins_url("/assets/img/integrations/zapier.jpg", __FILE__)); ?>">
+             src="<?php echo(plugins_url("../assets/img/integrations/zapier.jpg", __FILE__)); ?>">
         <h1>Zapier <a
                     href="https://zapier.com/?utm_source=customerly&utm_medium=wordpress&utm_campaign=plugin_Customerly"
                     target="_blank">

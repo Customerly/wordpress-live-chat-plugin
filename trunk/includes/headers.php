@@ -1,12 +1,17 @@
 <?php
 $current_user = wp_get_current_user();
 $blogName = get_bloginfo('name');
+define('CLY_PLUGIN_PATH', plugin_dir_path(__FILE__));
+
+// If this file is called directly, abort.
+if (!defined('WPINC')) {
+    die;
+}
+
+
 ?>
 
-<link rel="stylesheet"
-      href="<?php echo(plugins_url("/assets/css/customerly.css", __FILE__)); ?>">
 
-<script src="<?php echo(plugins_url("/assets/js/main.js", __FILE__)); ?>"></script>
 <!-- Google Tag Manager -->
 <script>(function (w, d, s, l, i) {
         w[l] = w[l] || [];
@@ -69,8 +74,6 @@ $blogName = get_bloginfo('name');
 
     customerly.load({
         "app_id": "00c4ed07",
-        "email": "<?php  echo($current_user->user_email); ?>",
-        "name": "<?php  echo($current_user->user_firstname); ?>",
         "direction": "right",
         "attributes": {
             "source": "wordpress_plugin"
