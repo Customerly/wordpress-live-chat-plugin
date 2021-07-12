@@ -150,38 +150,38 @@ Craft, deliver and analyze beautiful email marketing campaigns
 
 <h3> WordPress Free Live Chat Complete Features List</h3>
 
-✅ Live Chat accessible from everywhere
-✅ Super fast live Chat
+💬 Live Chat accessible from everywhere
+🚀 Super fast live Chat
 🎥 Video Live Chat your website visitors
-✅ Live chat conversations accessible from your iPhone or Android mobile device
-✅ Change the color of the live chat window
-✅ Customize the icon of the live chat bubble
-✅ Create automated questions to ask in your live chat window
-✅ Office Hours to show or hide your live chat window when out of office
-✅ Assign conversations with smart rules
-✅ Live Chat GIF Integration
-✅ Allow live chat popup with welcome messages
-✅ 3 Backgrounds for your live chat window
-✅ Limit the live chat window to show only to logged users
-✅ Set the position of your live chat box
-✅ Ban visitors from chatting to you based on IPAddress
-✅ Google Analytics integration to track conversion with the live chat
-✅ Facebook Pixel Event tracking for conversion with the live chat
-✅ Desktop notification when a live chat is received
-✅ Add your friend or colleague to your live chat
-✅ Share notes with other agents on the live chat conversations
-✅ Live chat statistics
-✅ Attach files to any live chat
-✅ Screenshots creation from the live chat in one click
-✅ Secure Live Chat system
-✅ Create different teams to assign your live chat
-✅ Screenshots creation from the live chat in one click
-✅ Access historical live chat conversations
-✅ Keep the person logged within the live chat automatically
-✅ Offline Live Chat messages stored
-✅ Continue conversation even after the live chat with email seamlessly
-✅ Unlimited simultaneous live chat
-✅ Unlimited live chat stored
+📱 Live chat conversations accessible from your iPhone or Android mobile device
+🌈 Change the color of the live chat window
+✏️ Customize the icon of the live chat bubble
+🤖 Create automated questions to ask in your live chat window
+⌚️ Office Hours to show or hide your live chat window when out of office
+🧑‍💻 Assign conversations with smart rules
+🎇 Live Chat GIF Integration
+💬 Allow live chat popup with welcome messages
+🌅 3 Backgrounds for your live chat window
+🔒 Limit the live chat window to show only to logged users
+💬 Set the position of your live chat box
+🌍 Ban visitors from chatting to you based on IPAddress
+📊 Google Analytics integration to track conversion with the live chat
+🔵 Facebook Pixel Event tracking for conversion with the live chat
+🖥 Desktop notification when a live chat is received
+👥 Add your friend or colleague to your live chat
+🧑‍💼 Share notes with other agents on the live chat conversations
+📈 Live chat statistics
+🗃 Attach files to any live chat
+📸 Screenshots creation from the live chat in one click
+🔐 Secure Live Chat system
+👥 Create different teams to assign your live chat
+📸 Screenshots creation from the live chat in one click
+🕰 Access historical live chat conversations
+🔄 Keep the person logged within the live chat automatically
+💾 Offline Live Chat messages stored
+📧 Continue conversation even after the live chat with email seamlessly
+🔃 Unlimited simultaneous live chat
+💾 Unlimited live chat stored
 
 
 
