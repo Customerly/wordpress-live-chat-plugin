@@ -18,11 +18,8 @@
 }
 
 .button-start {
-    background-color: #4fbdff !important;
-    background: -webkit-gradient(left top, right bottom, color-stop(0, #3b9eff), color-stop(100%, #38bfff)) !important;
-    background: linear-gradient(135deg, #3b9eff, #38bfff) !important;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3B9EFF", endColorstr="#5338bfff", GradientType=1) !important;
-    color: white !important;
+    background-color: #42ca49 !important;
+     color: white !important;
     padding: 10px !important;
     height: 49px !important;
     border-color: transparent !important;
@@ -31,6 +28,23 @@
     line-height: 25px !important;
     font-size: 18px !important;
 
+}
+
+.button-inbox {
+    background-color: #4fbdff !important;
+    border-color: #4fbdff !important;
+    box-shadow: 0 0 0 1px #4fbdff !important;
+    color: white !important;
+    padding: 10px !important;
+    height: 49px !important;
+    width: 100%;
+    border-radius: 8px !important;
+    line-height: 25px !important;
+    font-size: 18px !important;
+
+}
+.wp-core-ui .button-group.button-hero .button, .wp-core-ui .button.button-hero{
+    border: 0;
 }
 
 .input-field {

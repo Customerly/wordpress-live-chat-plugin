@@ -1,10 +1,10 @@
-=== Live Chat with Superpowers - Free Live Chat by Customerly ===
+=== Customerly Live Chat - The Free WP Live Chat plugin ===
 Contributors: lucamicheli
 Donate link: https://www.customerly.io/features/live-chat/?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wordpress_donate_url
 Tags: live chat, free live chat, chat plugin, video live chat, live help, WordPress live chat, chat, live chat plugin, live support plugin, live chat support plugin, chat plugin, support plugin, live help
 Requires at least: 3.0
-Tested up to: 5.7
-Stable tag: 2.2
+Tested up to: 5.8.1
+Stable tag: 2.3
 Requires PHP: 5.4
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html

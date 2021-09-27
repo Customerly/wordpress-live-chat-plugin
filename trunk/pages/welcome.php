@@ -13,8 +13,8 @@ $domain = get_site_url();
 
             <img class="icon-customerly" height="90"
                  src="<?php echo(plugins_url("../assets/img/blue_fill_notification.svg", __FILE__)); ?>">
-            <h1>Connect with Customerly</h1>
-            <p>To configure your Live Chat you need to create a Free Customerly account.</p>
+            <h1>Install Customerly Live Chat</h1>
+            <p><strong>25.000+ Websites </strong> uses Customerly Live Chat to talk with their customers via Chat and Email. </p>
             <div class="customerly_register">
 
                 <div style="margin: 10px 0">
@@ -51,7 +51,7 @@ $domain = get_site_url();
                     </div>
                     <input type="submit" name="submit" id="register-button" class="button button-start"
                            onclick="register_account();"
-                           value="Register and Install Live Chat"/>
+                           value="Register Free and Install Live Chat"/>
                 </div>
 
 

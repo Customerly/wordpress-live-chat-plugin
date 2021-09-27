@@ -679,12 +679,18 @@ class Customerly_admin
 /*
  * Function that redirect people on Customerly Admin when activated
  */
-function customerly_activation($plugin)
-{
-    if ($plugin == plugin_basename(__FILE__)) {
-        exit(wp_redirect(admin_url('admin.php?page=Customerly&utm_source=wordpress&utm_campaign=afterinstallredirect')));
+function cly_activation_handler() {
+    add_option('cly_do_activation_redirect', true);
+}
+
+function cly_redirect() {
+    if (get_option('cly_do_activation_redirect', false)) {
+        delete_option('cly_do_activation_redirect');
+        wp_redirect(admin_url( 'admin.php?page=Customerly' ));
     }
 }
+
+
 
 /*
  * Function that add a link in the description of the plugin list

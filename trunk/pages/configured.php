@@ -1,7 +1,10 @@
 <?php
 $options = get_option('customerly_settings');
+
+
 if (isset($options['customerly_text_field_session_token'])) {
-    $login = "https://app.customerly.io/secure/" . $options['customerly_text_field_session_token'];
+    $customize = "https://app.customerly.io/wpstart/" . $options['customerly_text_field_session_token']."/install";
+    $inbox = "https://app.customerly.io/wpstart/" . $options['customerly_text_field_session_token']."/inbox";
 }
 
 
@@ -10,10 +13,10 @@ if (isset($options['customerly_text_field_session_token'])) {
     var configured = true;
 </script>
 <div class="floating-header-section" id="customerly_configured">
-    <!--    <iframe src="-->
-    <?php //echo $login; ?><!--" style="    width: calc(100% + 20px);height: 100vh;margin: 0 0 0 -20px;">-->
-    <!---->
-    <!--    </iframe>-->
+<!--        <iframe src="-->
+<!--    --><?php //echo $inbox; ?><!--" style="    width: calc(100% + 20px);height: 100vh;margin: 0 0 0 -20px;">-->
+<!---->
+<!--        </iframe>-->
     <div class="section-content">
         <div class="section-item">
 
@@ -25,9 +28,15 @@ if (isset($options['customerly_text_field_session_token'])) {
                 visit your inbox. </p>
 
             <div class="button-container">
+
+
                 <a class="button button-start"
-                   href="<?php echo $login; ?>"
-                   target="_blank"> Go to my inbox</a>
+                   href="<?php echo $customize; ?>"
+                   target="_blank"> Customize Live Chat</a>
+
+                <a class="button button-inbox"
+                   href="<?php echo $inbox; ?>"
+                   target="_blank"> Open Inboxes</a>
 
                 <button class="button button-hero"
                         onclick="reset()"
