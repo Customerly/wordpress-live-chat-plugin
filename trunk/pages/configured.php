@@ -3,8 +3,8 @@ $options = get_option('customerly_settings');
 
 
 if (isset($options['customerly_text_field_session_token'])) {
-    $customize = "https://app.customerly.io/wpstart/" . $options['customerly_text_field_session_token']."/install";
-    $inbox = "https://app.customerly.io/wpstart/" . $options['customerly_text_field_session_token']."/inbox";
+    $customize = "https://app.customerly.io/projects/" . $options['customerly_text_field_appid']."/settings/messenger/appearance";
+    $inbox = "https://app.customerly.io/projects/" . $options['customerly_text_field_appid']."/conversations";
 }
 
 
@@ -29,14 +29,13 @@ if (isset($options['customerly_text_field_session_token'])) {
 
             <div class="button-container">
 
-
-                <a class="button button-start"
-                   href="<?php echo $customize; ?>"
-                   target="_blank"> Customize Live Chat</a>
-
                 <a class="button button-inbox"
                    href="<?php echo $inbox; ?>"
                    target="_blank"> Open Inboxes</a>
+
+                <a class="button button-start"
+                                      href="<?php echo $customize; ?>"
+                                  target="_blank"> Customize Live Chat</a>
 
                 <button class="button button-hero"
                         onclick="reset()"

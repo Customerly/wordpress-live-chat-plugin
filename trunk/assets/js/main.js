@@ -1,9 +1,5 @@
 jQuery(document).ready(function () {
-    var searchParams = new URLSearchParams(window.location.search);
-    if (searchParams.has('appid') == true) {
-        var appid = searchParams.get('appid');
-        save_main_options_ajax();
-    }
+
     replaceFooter();
 
 
@@ -20,9 +16,19 @@ jQuery(document).ready(function () {
             console.log("error", e);
         }
 
+
+        var searchParams = new URLSearchParams(window.location.search);
+        if (searchParams.has('projectId') === true) {
+            var appid = searchParams.get('projectId');
+            jQuery('#appID').val(appid);
+            save_main_options_ajax();
+        }
+
     } else {
         console.log(" configured");
     }
+
+   //http://academy.devcustomerly.io/wp-admin/admin.php?page=Customerly&projectId=e026058b
 
 });
 
@@ -36,94 +42,21 @@ function reset() {
     mixpanel.track("wordpress_configuration_reset", {});
 }
 
-function show_login() {
-    jQuery('.customerly_login').slideDown();
+function show_manual_config() {
+    jQuery('.customerly_manual_config').slideDown();
     jQuery('.customerly_register').slideUp();
     mixpanel.track("wordpress_configuration_login", {});
 }
 
 function show_register() {
     jQuery('.customerly_register').slideDown();
-    jQuery('.customerly_login').slideUp();
+    jQuery('.customerly_manual_config').slideUp();
     mixpanel.track("wordpress_configuration_register", {});
-}
-
-function login() {
-
-    if (jQuery('#loginpassword').val().length < 6) {
-        show_error("login", "Please insert your Password");
-        return;
-    }
-
-    jQuery('#login-button').hide();
-    jQuery('#login-loader').show();
-
-
-    var data = JSON.stringify({
-        email: jQuery('#loginemail').val(),
-        password: jQuery('#loginpassword').val(),
-    });
-
-    jQuery.post({
-        url: 'https://app.customerly.io/backend_api/v1/security/wordpress-login',
-        type: 'POST',
-        data: data,
-        success: function (data) {
-
-
-            if (data.error != undefined) {
-                show_error("login", data.error.message);
-                jQuery('#login-button').show();
-                jQuery('#login-loader').hide();
-                return;
-            }
-
-
-            var token = data.data.token;
-            jQuery('#sessionToken').val(token);
-            elaborate_available_apps(data.data.apps);
-
-            jQuery('.customerly_app_select').slideDown();
-            jQuery('.customerly_login').slideUp();
-
-            mixpanel.track("login", {
-                source: "wordpress"
-            });
-
-
-        }
-    });
-
-}
-
-function select_app(appid, token) {
-    jQuery('#appID').val(appid);
-    jQuery('#appkey').val(token);
-    save_main_options_ajax();
-}
-
-function elaborate_available_apps(apps) {
-
-    //IF the account has just one app, I'll select it automatically
-    if (Object.entries(apps).length == 1) {
-        var key = Object.keys(apps)[0];
-        var app = apps[key];
-        select_app(app.app_id, app.access_token);
-        return;
-    } else {
-        for (const [key, value] of Object.entries(apps)) {
-            var app = value;
-            jQuery('#app_container').append('<div class="app-container" onclick="select_app(\'' + key + '\',\'' + app.access_token + '\');">\n' +
-                '<h4 class="app-name">' + app.app_name + ' <span class="app-id">' + app.app_id + '</span></h4>\n' +
-                '</div>');
-        }
-    }
-
 }
 
 function show_error(position, message) {
 
-    if (position == 'login') {
+    if (position === 'login') {
         jQuery('#error_message_login').html(message);
         jQuery('#error_message_login').slideDown();
 
@@ -151,93 +84,30 @@ function show_error(position, message) {
 
 }
 
+function manual_setup(){
+    var project_id = jQuery('#project_id').val();
+    jQuery('#appID').val(project_id);
+    save_main_options_ajax();
+}
+
 function register_account() {
 
 
-    if (jQuery('#app_name').val().length < 3) {
-        show_error("register", "Please add a Project Name");
-        return;
+    try {
+        var name = jQuery('#name').val();
+        var projectName = encodeURIComponent(jQuery('#app_name').val());
+        let domain = (new URL(jQuery('#domain').val()));
+        var projectDomain = encodeURIComponent(domain.hostname);
+        var redirectUrl = encodeURIComponent(window.location.href);
+        var email = jQuery('#email').val();
+
+    } catch (e) {
+        console.log("error", e);
     }
-    if (jQuery('#password').val().length < 6) {
-        show_error("register", "Please add at least 6 char to the Password");
-        return;
-    }
-    var email = jQuery('#email').val();
 
-    jQuery('#register-button').hide();
-    jQuery('#register-loader').show();
+    var signupUrl = "https://app.customerly.io/signup?" + "email="+email+"&projectName=" + projectName + "&projectDomain=" + projectDomain + "&name=" + name + "&redirectUrl=" + redirectUrl;
 
-    var data = JSON.stringify({
-        email: email,
-        submission: {
-            extra: {
-                utm_source: 'wordpress',
-                utm_campaign: 'plugin',
-                ref: 'lucamicheli'
-            }
-        },
-        app: {
-            name: jQuery('#app_name').val(),
-            installed_domain: jQuery('#domain').val(),
-            widget_position: 1,
-            extra: {
-                utm_source: 'wordpress',
-                utm_campaign: 'plugin',
-                ref: 'lucamicheli'
-            }
-        },
-        account: {
-            name: jQuery('#name').val(),
-            password: jQuery('#password').val(),
-            marketing: jQuery('#marketing:checkbox:checked').length > 0,
-            extra: {
-                utm_source: 'wordpress',
-                utm_campaign: 'plugin',
-                ref: 'lucamicheli'
-            }
-        }
-    });
-
-
-    jQuery.post({
-        url: 'https://app.customerly.io/backend_api/v1/security/wordpress-register',
-        type: 'POST',
-        data: data,
-        success: function (data) {
-
-
-            try {
-                mixpanel.track("sign_up", {
-                    source: "wordpress",
-                    utm_source: 'wordpress',
-                    utm_medium: 'plugin',
-                    utm_campaign: 'wp_plugin_in_page_signup',
-                    email: email,
-                });
-
-                mixpanel.track("complete_registration", {
-                    source: "wordpress",
-                });
-            } catch (e) {
-                console.log("error", e);
-            }
-
-            if (data.error != undefined) {
-                show_error("register", data.error.message);
-                jQuery('#register-button').show();
-                jQuery('#register-loader').hide();
-                return;
-            }
-            var token = data.data.token;
-            jQuery('#sessionToken').val(token);
-            elaborate_available_apps(data.data.apps);
-
-            jQuery('.customerly_app_select').slideDown();
-            jQuery('.customerly_register').slideUp();
-
-
-        }
-    });
+    window.open( signupUrl, "_blank");
 
 }
 

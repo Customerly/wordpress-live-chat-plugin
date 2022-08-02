@@ -3,6 +3,7 @@ $current_user = wp_get_current_user();
 $blogName = get_bloginfo('name');
 $email = $current_user->user_email;
 $domain = get_site_url();
+
 ?>
 <script>
     var configured = false;
@@ -17,7 +18,7 @@ $domain = get_site_url();
             <p><strong>25.000+ Websites </strong> uses Customerly Live Chat to talk with their customers via Chat and Email. </p>
             <div class="customerly_register">
 
-                <div style="margin: 10px 0">
+                <div style="margin: 10px 0; display:none" >
                     <input class="input-field" type="text" placeholder="Your Name..." name="name" id="name"
                            required="required"
                            value="<?php echo($current_user->first_name); ?>"/>
@@ -31,16 +32,9 @@ $domain = get_site_url();
                            value="<?php echo($current_user->user_email); ?>"/>
 
                     <input value="<?php echo($domain); ?>" type="hidden" id="domain"/>
-                    <input class="input-field" placeholder="Password..." type="password" name="password" id="password"
-                           required="required"
-                           value=""/>
 
                     <label style="color: red; display: none" id="error_message"></label>
                 </div>
-
-
-                <label style="margin: 10px"><input type="checkbox" name="marketing" id="marketing"/> Receive once a
-                    month useful tutorials to improve your marketing results.</label>
 
                 <div class="cta-container">
                     <div id="register-loader" class="lds-ring" style="display: none">
@@ -51,35 +45,19 @@ $domain = get_site_url();
                     </div>
                     <input type="submit" name="submit" id="register-button" class="button button-start"
                            onclick="register_account();"
-                           value="Register Free and Install Live Chat"/>
-                </div>
-
-
-                <div style="margin-top: 10px;font-size: 10px;color: gray;"
-                     class="row text-center margin-top-5 text-sm-center">By continuing, you agree to
-                    the
-                    <a href="https://www.customerly.io/terms-of-use" target="_blank">Terms of Service
-                    </a>
-                    and
-                    <a href="https://www.customerly.io/privacy" target="_blank">Privacy Policy
-                    </a>
+                           value="Start configuration"/>
                 </div>
 
             </div>
-            <div class="customerly_login" style="display: none">
+            <div class="customerly_manual_config" style="display: none">
 
+                <h3>Add your Project ID and connect</h3>
                 <div style="margin: 10px 0">
-
-                    <input class="input-field" placeholder="Email..." type="text" name="loginemail" id="loginemail"
-                           required="required"
-                    />
-
-                    <input value="<?php echo($domain); ?>" type="hidden" id="domain"/>
-                    <input class="input-field" placeholder="Password..." type="password" name="loginpassword"
-                           id="loginpassword" required="required"
-                           value=""/>
-                    <label style="color: red; display: none" id="error_message_login"></label>
+                      <input class="input-field" placeholder="es. 92ac34f4" type="text" name="project_id" id="project_id"
+                                               required="required" value=""/>
                 </div>
+                 <p> Learn more on how to get your Project ID <a target="_blank" href="https://docs.customerly.io/project-settings-set-up-the-important-assets-of-your-project/what-s-a-customerly-project-id-and-where-can-i-get-it" >here</a></p>
+
 
                 <div class="cta-container">
                     <div id="login-loader" class="lds-ring" style="display: none">
@@ -88,23 +66,17 @@ $domain = get_site_url();
                         <div></div>
                         <div></div>
                     </div>
-                    <input type="submit" name="submit" id="login-button" class="button button-start" onclick="login();"
-                           value="Login and Install Live Chat"/>
+                    <input type="submit" name="submit" id="login-button" class="button button-start" onclick="manual_setup();"
+                           value="Connect project"/>
                 </div>
 
 
             </div>
-            <div class="customerly_app_select" style="display: none;">
 
-                <div id="app_container">
-
-                </div>
-
-            </div>
         </div>
-        <div class="customerly_register" style="margin: 20px"> Already have an account? <a onclick="show_login();"
+        <div class="customerly_register" style="margin: 20px"> Already have an account? <a onclick="show_manual_config();"
                                                                                            style="cursor: pointer">
-                Login</a></div>
+                Configure manually</a></div>
         <div class="customerly_login" style="margin: 20px; display: none;"> Need an account? <a
                     onclick="show_register();" style="cursor: pointer"> Register</a></div>
     </div>

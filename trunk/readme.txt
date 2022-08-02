@@ -1,10 +1,10 @@
-=== Live Chat by Customerly - Free Live Chat Plugin ===
+=== Customerly - Free Live Chat & Email Marketing ===
 Contributors: lucamicheli
 Donate link: https://www.customerly.io/features/live-chat/?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wordpress_donate_url
-Tags: live chat, free live chat, chat plugin, video live chat, live help, WordPress live chat, chat, live chat plugin, live support plugin, live chat support plugin, chat plugin, support plugin, live help
+Tags: live chat, free live chat, chat plugin,newsletter, funnels, crm,  video live chat, live help, WordPress live chat, chat, live chat plugin, live support plugin, live chat support plugin, chat plugin, support plugin, live help,
 Requires at least: 3.0
-Tested up to: 5.8.1
-Stable tag: 2.3
+Tested up to: 6.0.1
+Stable tag: 2.4
 Requires PHP: 5.4
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -21,7 +21,7 @@ Discover how to grow more by offering world-class support thanks to the live cha
 
 The [Live Chat Free](https://www.customerly.io/features/live-chat-plugin-for-wordpress/?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=live_chat_free)  for your WordPress website to talk with your visitors in real-time!
 
-**Customerly Live Chat helps 24.000+ businesses all over the world to deliver customer service seamlessly.**
+**Customerly Live Chat helps 28.000+ businesses all over the world to deliver customer service seamlessly.**
 
 
 == 💬 Live Chat Tools  ==
@@ -341,8 +341,9 @@ Once created the contact lists, you can send newsletters, funnels, nps and surve
 == Changelog ==
 We are constantly working on this plugin to improve the Live Chat features. In this version we fixed a series of bug and included the new live chat version 2.0.
 This includes:
-- Improved performances of the Live Chat
-- Added full support for Contact Form 7
-
+- Live Chat triggers: Send the right message at the right time with behavioural messaging
+- CRM: Keep your contact in one place and follow your customer journey
+- Newsletters: Create and deliver beautiful newsletters
+- Workflows: Automate your email sending with ease
 
 == Upgrade Notice ==

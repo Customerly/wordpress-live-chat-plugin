@@ -182,7 +182,7 @@ class Customerly_admin
     public function customerly_add_admin_menu()
     {
         add_menu_page('Customerly',
-            $this->customerly_is_configured() ? 'Live Chat' : 'Live Chat <span class="awaiting-mod">1</span>',
+            $this->customerly_is_configured() ? 'Customerly' : 'Live Chat <span class="awaiting-mod">1</span>',
             'manage_options',
             'Customerly',
             array($this, 'customerly_options_page'),
@@ -190,9 +190,12 @@ class Customerly_admin
             3);
 
         if ($this->customerly_is_configured()) {
-            add_submenu_page('Customerly', 'Live Chat PRO Features', '<div class="dashicons dashicons-star-filled"></div> PRO Features', 'manage_options', 'profeatures', 'customerly_pro');
+            add_submenu_page('Customerly', 'Live Chat Triggers', '<div class="dashicons dashicons-star-filled"></div> Get more clients', 'manage_options', 'chat-triggers', 'customerly_chat_triggers');
+            add_submenu_page('Customerly', 'Newsletters', '<div class="dashicons dashicons-email"></div> Send Newsletters', 'manage_options', 'newsletter', 'customerly_newsletter');
+            add_submenu_page('Customerly', 'Workflows', '<div class="dashicons dashicons-networking"></div> Workflows', 'manage_options', 'workflow', 'customerly_workflow');
+            add_submenu_page('Customerly', 'CRM', '<div class="dashicons dashicons-businessman"></div> CRM', 'manage_options', 'crm', 'customerly_crm');
             add_submenu_page('Customerly', 'Live Chat Mobile App', '<div class="dashicons dashicons-smartphone"></div> Download App', 'manage_options', 'mobileapp', 'customerly_download_app');
-            add_submenu_page('Customerly', 'Live Chat Integrations', '<div class="dashicons dashicons-buddicons-pm"></div> Integrations', 'manage_options', 'integrations', 'cutomerly_integrations');
+            //add_submenu_page('Customerly', 'Live Chat Integrations', '<div class="dashicons dashicons-buddicons-pm"></div> Integrations', 'manage_options', 'integrations', 'cutomerly_integrations');
         }
         global $menu;
 
@@ -734,9 +737,24 @@ function customerly_download_app()
     include_once(CLY_PAGES_PATH . "/mobile.php");
 }
 
-function customerly_pro()
+function customerly_chat_triggers()
 {
-    include_once(CLY_PAGES_PATH . "/profeatures.php");
+    include_once(CLY_PAGES_PATH . "/chat-triggers.php");
+}
+
+function customerly_newsletter()
+{
+    include_once(CLY_PAGES_PATH . "/newsletter.php");
+}
+
+function customerly_workflow()
+{
+    include_once(CLY_PAGES_PATH . "/workflow.php");
+}
+
+function customerly_crm()
+{
+    include_once(CLY_PAGES_PATH . "/crm.php");
 }
 
 function cutomerly_integrations()

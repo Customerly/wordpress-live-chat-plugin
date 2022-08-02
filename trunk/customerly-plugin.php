@@ -8,8 +8,8 @@
  * @wordpress-plugin
  * Plugin Name:       Live Chat - Customerly
  * Plugin URI:        https://www.customerly.io/?utm_medium=wp_plugin
- * Description:       The Live Chat with Super Powers is here. Add Free Live Chat to your WordPress and talk with your visitors, generate leads and increase sales.
- * Version:           2.3
+ * Description:       The Live Chat with behavioural messages. Add Free Live Chat to your WordPress and to send the right message at the right time to talk with your visitors, generate leads and increase sales.
+ * Version:           2.4
  * Author:            Customerly
  * Author URI:        https://www.customerly.io/features/live-chat-plugin-for-wordpress/?utm_source=wordpress&utm_medium=plugin
  * License:           GPL-2.0+
@@ -80,7 +80,7 @@ function cly_init_customerly()
     global $customerly;
 
     $customerly = new Customerly();
-    $customerly->version = '2.3';
+    $customerly->version = '2.4';
     $customerly->plugin_basename = plugin_basename(__FILE__);
     $customerly->init();
 

@@ -302,3 +302,8 @@ Pro feature page
         transform: rotate(360deg);
     }
 }
+
+.video-feature{
+    border-radius: 8px;
+    width: 640px;
+}
