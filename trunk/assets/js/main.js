@@ -105,7 +105,7 @@ function register_account() {
         console.log("error", e);
     }
 
-    var signupUrl = "https://app.customerly.io/signup?" + "email="+email+"&projectName=" + projectName + "&projectDomain=" + projectDomain + "&name=" + name + "&redirectUrl=" + redirectUrl;
+    var signupUrl = "https://app.customerly.io/signup?" + "email="+email+"&projectName=" + projectName + "&projectDomain=" + projectDomain + "&name=" + name + "&redirectUrl=" + redirectUrl + "&utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_signup_button";
 
     window.open( signupUrl, "_blank");
 
