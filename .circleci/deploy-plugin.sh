@@ -23,7 +23,7 @@ fi
 PLUGIN_SVN_PATH="/tmp/svn"
 
 # Remove the "v" at the beginning of the git tag
-SVN_TAG=$(grep -oP '(?<=Stable tag: )([0-9]+\.[0-9]+\.[0-9]+)' ./trunk/readme.txt)
+SVN_TAG=$(grep -oP '(?<=Stable tag: )([0-9]+\.[0-9]+(\.[0-9])*)' ./trunk/readme.txt)
 echo "Get tag from readme.txt: $SVN_TAG"
 
 # Check if the latest SVN tag exists already
