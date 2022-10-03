@@ -28,8 +28,6 @@ jQuery(document).ready(function () {
         console.log(" configured");
     }
 
-   //http://academy.devcustomerly.io/wp-admin/admin.php?page=Customerly&projectId=e026058b
-
 });
 
 
@@ -105,7 +103,7 @@ function register_account() {
         console.log("error", e);
     }
 
-    var signupUrl = "https://app.customerly.io/signup?" + "email="+email+"&projectName=" + projectName + "&projectDomain=" + projectDomain + "&name=" + name + "&redirectUrl=" + redirectUrl + "&utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_signup_button";
+    var signupUrl = "https://app.customerly.io/signup?" + "email="+email+"&projectName=" + projectName + "&projectDomain=" + projectDomain + "&name=" + name + "&redirectUrl=" + redirectUrl + "?utm_source=wordpress&utm_medium=wp_plugin&utm_campaign=signup";
 
     window.open( signupUrl, "_blank");
 

@@ -7,11 +7,11 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Live Chat - Customerly
- * Plugin URI:        https://www.customerly.io/?utm_medium=wp_plugin
- * Description:       The Live Chat with behavioural messages. Add Free Live Chat to your WordPress and to send the right message at the right time to talk with your visitors, generate leads and increase sales.
- * Version:           2.4
+ * Plugin URI:        https://www.customerly.io/?utm_source=wordpress&utm_medium=plugin&utm_campaign=plugin_uri
+ * Description:       Live Chat with visitors, generate leads, engage at the right time with the right message to convert and sales more.
+ * Version:           2.4.1
  * Author:            Customerly
- * Author URI:        https://www.customerly.io/features/live-chat-plugin-for-wordpress/?utm_source=wordpress&utm_medium=plugin
+ * Author URI:        https://www.customerly.io/features/live-chat-plugin-for-wordpress/?utm_source=wordpress&utm_medium=plugin&utm_campaign=plugin_author_uri
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Domain Path:       /languages
@@ -30,7 +30,7 @@ define('CLY_ADMIN_CSS_URL', plugin_dir_url(__FILE__) . 'assets/css/');
 
 
 add_action('admin_enqueue_scripts', 'load_admin_scripts');
-wp_enqueue_script('wp-deactivation-message', plugins_url('js/message.js', dirname(__FILE__)), array());
+//wp_enqueue_script('wp-deactivation-message', plugins_url('js/message.js', dirname(__FILE__)), array());
 
 
 add_action('plugins_loaded', 'customerly_textdomain');
