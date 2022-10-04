@@ -1,14 +1,14 @@
 <?php
 
 /**
- * Live Chat from Customerly
+ * Live Chat by Customerly - FREE Live Chat & Video Live Chat for WP
  *
  *
  *
  * @wordpress-plugin
- * Plugin Name:       Live Chat - Customerly
+ * Plugin Name:       Live Chat by Customerly - FREE Live Chat & Video Live Chat for WP
  * Plugin URI:        https://www.customerly.io/?utm_source=wordpress&utm_medium=plugin&utm_campaign=plugin_uri
- * Description:       Live Chat with visitors, generate leads, engage at the right time with the right message to convert and sales more.
+ * Description:       Live Chat software to chat with real-time visitors, generate leads, and increase sales.
  * Version:           2.4.1
  * Author:            Customerly
  * Author URI:        https://www.customerly.io/features/live-chat-plugin-for-wordpress/?utm_source=wordpress&utm_medium=plugin&utm_campaign=plugin_author_uri
