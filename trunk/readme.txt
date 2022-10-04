@@ -1,4 +1,4 @@
-=== Live Chat, Email, CRM, Knowledge base ===
+=== Live Chat by Customerly - FREE Live Chat & Video Live Chat for WP ===
 Contributors: lucamicheli
 Donate link: https://www.customerly.io/features/live-chat/?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wordpress_donate_url
 Tags: live chat, free live chat, wp live chat, chatbot, chat plugin,newsletter, funnels, crm,  video live chat, live help, WordPress live chat, chat, live chat plugin, live support plugin, live chat support plugin, chat plugin, support plugin, live help,
@@ -9,7 +9,7 @@ Requires PHP: 5.4
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Live Chat with visitors, generate leads, engage at the right time with the right message to convert and sales more.
+Live Chat software to chat with real-time visitors, generate leads, and increase sales.
 
 == Description ==
 
@@ -53,98 +53,86 @@ Our Live Chat helps 28.000+ businesses all over the world to deliver the most ef
 
 Help your customers find their way with our AI-integrated live chat.
 
-[→ Live Chat](https://www.customerly.io/features/live-chat/?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description)
+= Live Chat =
 
 Save time with canned responses
 Reduce workloads for your team and quickly reply to repeated requests
 
-[→ Canned Responses](https://www.customerly.io/features/live-chat/#canned-responses?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description)
+= Canned Responses =
 
 Answer faster with chat previews
 Sneak-peek your customers' messages while they are still typing. You can search for the perfect answer to quickly respond
 
-[→ Chat Previews](https://www.customerly.io/features/live-chat/#chat-previews?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description)
+= Chat Previews =
 
 Enrich your chat messages
 Not just plain text, use our built-in editor to create compelling messages with font styles, inline images and much more
 
-[→ Rich Chat Messages](https://www.customerly.io/features/live-chat/#rich-messages?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description)
+= Rich Chat Messages =
 
 Not just text, share any media
 Drag & drop any file to send them on chat. Your customers will be able to share easily their documents too, like screenshots, PDF quotes, ZIP, videos and much more...
 
-[→ Chat Attachments](https://www.customerly.io/features/live-chat/#file-sharing?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description)
+= Chat Attachments =
 
 Find any past chat with chat history
 In your chat history archive, you can find easily any past conversation that includes a certain phrase. Check also a past conversation for a specific customer
-[→ Chat Archives](https://www.customerly.io/features/live-chat/#chat-archives?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description)
+= Chat Archives =
 
 
 Enable notifications to instantly reply to your live chats
 Do not miss any opportunity by turning on web, mobile or email notifications every time you get a new chat
 
-[→ Chat Notifications](https://www.customerly.io/features/live-chat/#chat-notifications?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description)
+= Chat Notifications =
 
 
 
 = 🎥 Video live chat & screen share =
 Deliver demos straight away, show products easily or fix issues on your customer computers with Customerly
 
-[→ Video Live Chat](https://www.customerly.io/features/video-live-chat/?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=video_live_chat)
-[→ Screen Share](https://www.customerly.io/features/video-live-chat/#screen-share?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=video_live_chat)
 
 
 = ⚡️ Live Chat Engagements =
 Engage with customers on your pages to get more leads and appointment
 
 
-Add [ Welcome Messages](https://www.customerly.io/features/live-chat-engagement/#welcome-message?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description) to better engage with your visitors on your website and ask [Pre-Chat questions](https://www.customerly.io/features/live-chat-engagement/#pre-chat-survey?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description) to better profile your incoming leads.
+Add Welcome Messages to better engage with your visitors on your website and ask Pre-Chat questions to better profile your incoming leads.
 
-Then use [Smart Assignment Rules](https://www.customerly.io/features/smart-assignment-rules/?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description) to always assign the message to the right person in the team.
+Then use Smart Assignment Rules to always assign the message to the right person in the team.
 
-Let your visitors book a [Book a Meeting](https://www.customerly.io/features/live-chat-engagement/#book-meeting?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description) directly from the chat.
+Let your visitors book a Book a Meeting directly from the chat.
 
-Let your customer find an answer themself with [In-Chat Help Center](https://www.customerly.io/features/live-chat-engagement/#help-center?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description). We are saving more than 80,000 support cases per month to our customers. That's a million dollar saved in customer support time and salary.
+Let your customer find an answer themself with In-Chat Help Center. We are saving more than 80,000 support cases per month to our customers. That's a million dollar saved in customer support time and salary.
 
 
 = ⭐️ Live Chat Dashboard =
-The [Conversations Inbox](https://www.customerly.io/features/conversation-inbox/?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=live_chat_dashboard)  is where the magic happens between you and your customers
+The Conversations Inbox is where the magic happens between you and your customers
 One single place to connect with your customers
 
 
 = 🎨 Live Chat Customization  =
 Make your live chat look like yours with wonderful customizations
 
-[Customize](https://www.customerly.io/features/live-chat-customization/?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description) your live chat to
-[match your brand](https://www.customerly.io/features/live-chat-customization/#brand-matching?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description) with different
-[Chat Icons](https://www.customerly.io/features/live-chat-customization/#chat-icons?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description). Each agent will be able to customize their
-[profiles](https://www.customerly.io/features/live-chat-customization/#agent-profiles?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description).
+Customize your live chat to match your brand with different Chat Icons. Each agent will be able to customize their profiles.
 You can also present your company with a
-[Company mission statement](https://www.customerly.io/features/live-chat-customization/#company-intro?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description)
+Company mission statement
 
-The live chat support several
-[ Languages](https://www.customerly.io/features/live-chat-customization/#chat-languages?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description) that adapts automatically to the customer browser.
+The live chat support several Languages that adapts automatically to the customer browser.
 
 
 = 🎨 Help Center =
 Deploy a self-service help center with intelligent automation
 
-When it comes to customers, a good 50% of them prefer to find an answer themself in an [Help Center](https://www.customerly.io/features/help-center/?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description).
+When it comes to customers, a good 50% of them prefer to find an answer themself in an Help Center.
 
-Thanks to the
-[In-Chat Search](https://www.customerly.io/features/help-center/#inchat-search?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description) they will be able to search their answer in there without bugging your customer support team. [Auto reply](https://www.customerly.io/features/help-center/#chat-auto-reply?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description) instead is going to suggest automatically a solution for them based on their inquiries.
+Thanks to the In-Chat Search they will be able to search their answer in there without bugging your customer support team. Auto reply instead is going to suggest automatically a solution for them based on their inquiries.
 
-Build your Knowledge base with an easy to use and powerful [Article Editor](https://www.customerly.io/features/help-center/#article-editor?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description), add your
-[Google Tag Manager](https://www.customerly.io/features/help-center/#google-tag-manager?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description) and observe any
-[Article Feedback](https://www.customerly.io/features/help-center/#article-feedback?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description)
+Build your Knowledge base with an easy to use and powerful Article Editor, add your Google Tag Manager and observe any Article Feedback
 
 = 🧐 Improve with Reports =
-Analyze detailed reports on how your customer service team is performing with [Team ](https://www.customerly.io/features/team-reports/?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description), [Chat](https://www.customerly.io/features/team-reports/#chat-reports?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description) and
-[Agent Reports](https://www.customerly.io/features/team-reports/#agent-reports?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description).
+Analyze detailed reports on how your customer service team is performing with Team, Chat and Agent Reports.
 
-Optimize your knowledge base with reports on the
-[Help Center](https://www.customerly.io/features/team-reports/#help-center-reports?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description) and understand what they are searching for with
-[Failed Searches Reports](https://www.customerly.io/features/team-reports/#failed-searches-reports?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description)
+Optimize your knowledge base with reports on the Help Center and understand what they are searching for with Failed Searches Reports
 
 
 
@@ -154,32 +142,29 @@ Optimize your knowledge base with reports on the
 = 🤖 Automate emails with workflows =
 Create automation to communicate with your customers along their journey from awareness to advocacy.
 
-The [Workflow Builder](https://www.customerly.io/features/marketing-funnel/?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description) will let you create email sequences easily to nurture your leads or keep engaged your customers.
+The Workflow Builder will let you create email sequences easily to nurture your leads or keep engaged your customers.
 
 
-Explore our [Workflow Templates ](https://www.customerly.io/features/marketing-funnel/#funnel-templates?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description) to get inspiration on how you can welcome new customers, engage with the current one and nurture prospects.
+Explore our Workflow Templates to get inspiration on how you can welcome new customers, engage with the current one and nurture prospects.
 
 
-Use powerful [Customer Lists ](https://www.customerly.io/features/audience-segmentation/?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description) to automatically segment your customers based on your rules. Split by city, list, form source, campaign? You name it. The sky is the limit.
+Use powerful Customer Lists to automatically segment your customers based on your rules. Split by city, list, form source, campaign? You name it. The sky is the limit.
 
 
 = 📧 Email Marketing =
 Craft, deliver and analyze beautiful email marketing campaigns.
 
-With the Customerly [Email Marketing suite ](https://www.customerly.io/features/email-marketing/?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description) you will be able to create, send, analyze beautiful marketing campaigns. With [100% Delivery Rate ](https://www.customerly.io/features/email-marketing/#delivery-rate?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description) and robust reply system you will get more results from each campaign you send.
+With the Customerly Email Marketing suite you will be able to create, send, analyze beautiful marketing campaigns. With 100% Delivery Rate and robust reply system you will get more results from each campaign you send.
 
-Build with a fantastic
-[ Visual Email Template Builder ](https://www.customerly.io/features/email-template-builder/?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description) that will allow you in a few moments to craft responsive email campaigns.
-
-
-
-Once you sent the one-shot email campaign or an automated one, check the
-[Email Stats ](https://www.customerly.io/features/email-marketing/#campaign-insights?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description) and
-[User detailed reporting ](https://www.customerly.io/features/email-marketing/#user-detail-reporting?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wp_plugin_description) to see exactly how  people are responding to your marketing efforts.
+Build with a fantastic Visual Email Template Builder that will allow you in a few moments to craft responsive email campaigns.
 
 
 
-== WordPress Live Chat Complete Features List ==
+Once you sent the one-shot email campaign or an automated one, check the Email Stats and User detailed reporting to see exactly how  people are responding to your marketing efforts.
+
+
+
+== WP Live Chat Complete Features List ==
 
 💬 Live Chat accessible from everywhere
 
@@ -250,16 +235,6 @@ Once you sent the one-shot email campaign or an automated one, check the
 == How to install the Free WordPress Live Chat ==
 
 [youtube https://www.youtube.com/watch?v=_WZ_YaU3aJQ]
-- Intro
-- Install Live Chat
-- Conversation Dashboard
-- Customize Live Chat
-- Tips: Engage with Welcome Message
-- Invite Teammates
-- Bonus Story
-- Enable Notifications
-- Download mobile App
-- Check your Live Chat experience
 
 
 == Installation ==
