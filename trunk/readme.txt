@@ -36,12 +36,12 @@ Talk to your customers in real-time with a beautiful, super fast and customizabl
 The Customerly [Free Live Chat Software ](https://www.customerly.io/features/live-chat-plugin-for-wordpress/?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=live_chat_free)  for your WordPress website will help you with:
 * 🎨 Customizing the live chat to match your brand identity
 * ✅ Creating greeting messages to help you start a conversation
-* ✅  Recover visitors about to abandon your website
-* ✅  Profile your incoming chat messages with more questions
-* ✅  Getting  more demos with meeting booking
-* ✅  Helping your customers with Knowledge base and AutoReply
-* 📱Replying on mobile everywhere you go on the Customerly mobile app
-* 📚Knowledge base builder to support on autopilot your customers 24/7
+* ✅ Recover visitors about to abandon your website
+* ✅ Profile your incoming chat messages with more questions
+* ✅ Getting  more demos with meeting booking
+* ✅ Helping your customers with Knowledge base and AutoReply
+* 📱 Replying on mobile everywhere you go on the Customerly mobile app
+* 📚 Knowledge base builder to support on autopilot your customers 24/7
 * 🎥 Video live chat and screen-sharing with your visitors without leaving the page
 
 
