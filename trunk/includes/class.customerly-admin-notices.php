@@ -118,14 +118,14 @@ class CLY_Admin_notices
                     "is-dismissible"
                 );
 
-                $id = $admin_notice['id'];
+                $id = esc_attr($admin_notice['id']);
                 if (!$admin_notice['dismissable_forever'] || (!isset($this->notices_options['dismiss_notices'][$id]) || !$this->notices_options['dismiss_notices'][$id])) {
                     if ($admin_notice['dismissable_forever']) {
                         $classes[] = 'cly-cf7-api-dismiss-notice-forever';
                     }
-                    echo esc_html( "<div id='{$admin_notice['id']}' class='" . implode(' ', $classes) . "'>
-                         <p>{$admin_notice['notice']}</p>
-                     </div>");
+                    echo "<div id='{$admin_notice['id']}' class='" .esc_attr( implode(' ', $classes)) . "'>
+                         <p>".esc_html($admin_notice['notice'])."</p>
+                     </div>";
                 }
 
             }

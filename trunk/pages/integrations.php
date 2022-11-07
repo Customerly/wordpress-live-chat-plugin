@@ -2,23 +2,15 @@
 
 $options = get_option('customerly_settings');
 
-if (isset($_GET['appkey'])) {
-    $appkey = $_GET['appkey'];
-}
-
 $plugins_url = plugins_url();
 $baseURL = $plugins_url . "/customerly/";
 
 ?>
-
-
 <div class="container">
     <h1>Create Email Campaigns and Funnels</h1>
     <h3>Are you using forms to collect leads? Create Funnels and Campaigns with Customerly. Integrate with your
         services.</h3>
 </div>
-
-
 <div class="content intgrations">
 
     <div class="section-item integration-item">
