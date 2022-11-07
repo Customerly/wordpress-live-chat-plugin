@@ -4,7 +4,7 @@ Donate link: https://www.customerly.io/features/live-chat/?utm_medium=wp_plugin&
 Tags: live chat, free live chat, wp live chat, chatbot, chat plugin,newsletter, funnels, crm,  video live chat, live help, WordPress live chat, chat, live chat plugin, live support plugin, live chat support plugin, chat plugin, support plugin, live help,
 Requires at least: 3.0
 Tested up to: 6.1
-Stable tag: 2.5
+Stable tag: 2.5.1
 Requires PHP: 5.4
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
