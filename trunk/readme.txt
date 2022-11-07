@@ -3,8 +3,8 @@ Contributors: lucamicheli
 Donate link: https://www.customerly.io/features/live-chat/?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wordpress_donate_url
 Tags: live chat, free live chat, wp live chat, chatbot, chat plugin,newsletter, funnels, crm,  video live chat, live help, WordPress live chat, chat, live chat plugin, live support plugin, live chat support plugin, chat plugin, support plugin, live help,
 Requires at least: 3.0
-Tested up to: 6.0.1
-Stable tag: 2.4.1
+Tested up to: 6.1
+Stable tag: 2.5
 Requires PHP: 5.4
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -376,7 +376,11 @@ Once created the contact lists, you can send newsletters, funnels, nps and surve
 
 
 == Changelog ==
-We are constantly working on this plugin to improve the Live Chat features. In this version we fixed a series of bug and included the new live chat version 2.0.
+
+We have fixed some security issues with the Form POST for Elementor and MailMunch.
+IF YOU WERE USING A FORM INTEGRATION Please use the new Elementor Form Customerly or Contact Form 7 Customerly Plugins to have a better and working implementation for your forms.
+
+We are constantly working on this plugin to improve the Live Chat features.
 This includes:
 - Live Chat triggers: Send the right message at the right time with behavioural messaging
 - CRM: Keep your contact in one place and follow your customer journey
