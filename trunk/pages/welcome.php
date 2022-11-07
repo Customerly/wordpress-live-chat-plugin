@@ -21,17 +21,17 @@ $domain = get_site_url();
                 <div style="margin: 10px 0; display:none" >
                     <input class="input-field" type="text" placeholder="Your Name..." name="name" id="name"
                            required="required"
-                           value="<?php echo($current_user->first_name); ?>"/>
+                           value="<?php echo esc_attr($current_user->first_name); ?>"/>
 
                     <input class="input-field" placeholder="Project Name..." type="text" name="app_name" id="app_name"
                            required="required"
-                           value="<?php echo($blogName); ?>"/>
+                           value="<?php echo esc_attr($blogName); ?>"/>
 
                     <input class="input-field" placeholder="Email..." type="text" name="email" id="email"
                            required="required"
-                           value="<?php echo($current_user->user_email); ?>"/>
+                           value="<?php echo esc_attr($current_user->user_email); ?>"/>
 
-                    <input value="<?php echo($domain); ?>" type="hidden" id="domain"/>
+                    <input value="<?php echo esc_attr($domain); ?>" type="hidden" id="domain"/>
 
                     <label style="color: red; display: none" id="error_message"></label>
                 </div>
@@ -74,10 +74,8 @@ $domain = get_site_url();
             </div>
 
         </div>
-        <div class="customerly_register" style="margin: 20px"> Already have an account? <a onclick="show_manual_config();"
-                                                                                           style="cursor: pointer">
-                Configure manually</a></div>
-        <div class="customerly_login" style="margin: 20px; display: none;"> Need an account? <a
-                    onclick="show_register();" style="cursor: pointer"> Register</a></div>
+        <div class="customerly_register" style="margin: 20px"> Already have an account?
+            <a onclick="show_manual_config();" style="cursor: pointer"> Configure manually</a></div>
+        <div class="customerly_login" style="margin: 20px; display: none;"> Need an account? <a onclick="show_register();" style="cursor: pointer"> Register</a></div>
     </div>
 </div>

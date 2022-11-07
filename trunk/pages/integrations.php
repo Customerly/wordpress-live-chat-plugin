@@ -4,10 +4,6 @@ $options = get_option('customerly_settings');
 
 if (isset($_GET['appkey'])) {
     $appkey = $_GET['appkey'];
-} else {
-    if (isset($options['customerly_text_field_appkey'])) {
-        $appkey = $options['customerly_text_field_appkey'];
-    }
 }
 
 $plugins_url = plugins_url();
@@ -25,31 +21,6 @@ $baseURL = $plugins_url . "/customerly/";
 
 <div class="content intgrations">
 
-
-    <div class="section-item integration-item">
-
-        <img class="integration-icon"
-             src="<?php echo(plugins_url("../assets/img/integrations/mailmunch.jpg", __FILE__)); ?>">
-        <h1>Mailmunch <a href="https://wordpress.org/plugins/mailmunch/" target="_blank">
-                <div class="dashicons dashicons-external"></div>
-            </a></h1>
-
-        <div class="integration-content">
-            <p>Connect your Mailmunch forms lead acquisition with Customerly to create Email
-                Campaigns
-                or Funnels</p>
-
-            <b>HTTP Custom POST URL </b>
-            <div class="integration-url"><?php echo($baseURL . 'form.php'); ?></div>
-        </div>
-
-
-        <a class="button button-start"
-           href="https://go.customerly.io/mailmunch"
-           target="_blank"> Learn more</a>
-
-
-    </div>
     <div class="section-item integration-item">
 
         <img class="integration-icon"

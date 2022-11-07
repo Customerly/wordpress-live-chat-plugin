@@ -52,11 +52,11 @@ class CLY_Admin_notices
     public function load_admin_scripts()
     {
 
-        wp_register_style('cly-cf7-api-admin-notices-css', CLY_ADMIN_CSS_URL . 'admin-notices-style.css', false, '1.0.0');
+        wp_register_style('cly-cf7-api-admin-notices-css', CUSTOMERLY_CHAT_ADMIN_CSS_URL . 'admin-notices-style.css', false, '1.0.0');
 
         wp_enqueue_style('cly-cf7-api-admin-notices-css');
 
-        wp_register_script('cly-cf7-api-admin-notices-script', CLY_ADMIN_JS_URL . 'admin-notices-script.js', array('jquery'), '1.0.0', true);
+        wp_register_script('cly-cf7-api-admin-notices-script', CUSTOMERLY_CHAT_ADMIN_JS_URL . 'admin-notices-script.js', array('jquery'), '1.0.0', true);
 
         wp_enqueue_script('cly-cf7-api-admin-notices-script');
 
@@ -123,9 +123,9 @@ class CLY_Admin_notices
                     if ($admin_notice['dismissable_forever']) {
                         $classes[] = 'cly-cf7-api-dismiss-notice-forever';
                     }
-                    echo "<div id='{$admin_notice['id']}' class='" . implode(' ', $classes) . "'>
+                    echo esc_html( "<div id='{$admin_notice['id']}' class='" . implode(' ', $classes) . "'>
                          <p>{$admin_notice['notice']}</p>
-                     </div>";
+                     </div>");
                 }
 
             }

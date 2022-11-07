@@ -1,5 +1,5 @@
 <?php
-include_once(CLY_INCLUDES_PATH . "/headers.php");
+include_once(CUSTOMERLY_CHAT_INCLUDES_PATH . "/headers.php");
 ?>
 <div class="container">
 

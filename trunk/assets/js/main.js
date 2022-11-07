@@ -1,29 +1,13 @@
 jQuery(document).ready(function () {
 
     replaceFooter();
-
-
     if (configured === false) {
-        console.log("Not configured");
-        try {
-            setTimeout(function () {
-                mixpanel.track("wordpress_configuration_started", {
-                    source: "wordpress",
-                });
-            }, 1000);
-
-        } catch (e) {
-            console.log("error", e);
-        }
-
-
         var searchParams = new URLSearchParams(window.location.search);
         if (searchParams.has('projectId') === true) {
             var appid = searchParams.get('projectId');
             jQuery('#appID').val(appid);
             save_main_options_ajax();
         }
-
     } else {
         console.log(" configured");
     }
@@ -37,19 +21,16 @@ function reset() {
     jQuery('#sessionToken').val("");
     jQuery('#appkey').val("");
     save_main_options_ajax();
-    mixpanel.track("wordpress_configuration_reset", {});
 }
 
 function show_manual_config() {
     jQuery('.customerly_manual_config').slideDown();
     jQuery('.customerly_register').slideUp();
-    mixpanel.track("wordpress_configuration_login", {});
 }
 
 function show_register() {
     jQuery('.customerly_register').slideDown();
     jQuery('.customerly_manual_config').slideUp();
-    mixpanel.track("wordpress_configuration_register", {});
 }
 
 function show_error(position, message) {
@@ -70,16 +51,6 @@ function show_error(position, message) {
         }, 10000);
     }
 
-    try {
-        mixpanel.track("wordpress_error", {
-            error: message
-        });
-
-    } catch (e) {
-        console.log("error", e);
-    }
-
-
 }
 
 function manual_setup(){
@@ -89,8 +60,6 @@ function manual_setup(){
 }
 
 function register_account() {
-
-
     try {
         var name = jQuery('#name').val();
         var projectName = encodeURIComponent(jQuery('#app_name').val());
@@ -103,15 +72,13 @@ function register_account() {
         console.log("error", e);
     }
 
-    var signupUrl = "https://app.customerly.io/signup?" + "email="+email+"&projectName=" + projectName + "&projectDomain=" + projectDomain + "&name=" + name + "&redirectUrl=" + redirectUrl + "?utm_source=wordpress&utm_medium=wp_plugin&utm_campaign=signup";
-
+    var signupUrl = "https://app.customerly.io/wordpress?" + "email="+email+"&projectName=" + projectName + "&projectDomain=" + projectDomain + "&name=" + name + "&redirectUrl=" + redirectUrl + "&utm_source=wordpress&utm_medium=wp_plugin&utm_campaign=wp_signup";
     window.open( signupUrl, "_blank");
 
 }
 
 function save_main_options_ajax() {
     jQuery('#customerlySettings').submit();
-    mixpanel.track("wordpress_configured");
 }
 
 function replaceFooter() {

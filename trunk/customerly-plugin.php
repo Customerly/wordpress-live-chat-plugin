@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Live Chat by Customerly - FREE Live Chat & Video Live Chat for WP
+ * Live Chat by Customerly
  *
  *
  *
@@ -22,15 +22,15 @@ if (!defined('WPINC')) {
     die;
 }
 
-define('CLY_PLUGIN_PATH', plugin_dir_path(__FILE__));
-define('CLY_INCLUDES_PATH', plugin_dir_path(__FILE__) . 'includes/');
-define('CLY_PAGES_PATH', plugin_dir_path(__FILE__) . 'pages/');
-define('CLY_ADMIN_JS_URL', plugin_dir_url(__FILE__) . 'assets/js/');
-define('CLY_ADMIN_CSS_URL', plugin_dir_url(__FILE__) . 'assets/css/');
+define('CUSTOMERLY_CHAT_PLUGIN_PATH', plugin_dir_path(__FILE__));
+define('CUSTOMERLY_CHAT_INCLUDES_PATH', plugin_dir_path(__FILE__) . 'includes/');
+define('CUSTOMERLY_CHAT_PAGES_PATH', plugin_dir_path(__FILE__) . 'pages/');
+define('CUSTOMERLY_CHAT_ADMIN_JS_URL', plugin_dir_url(__FILE__) . 'assets/js/');
+define('CUSTOMERLY_CHAT_ADMIN_CSS_URL', plugin_dir_url(__FILE__) . 'assets/css/');
+const CUSTOMERLY_CHAT_API_BASE_URL = 'https://api.customerly.io/v1/';
 
 
 add_action('admin_enqueue_scripts', 'load_admin_scripts');
-//wp_enqueue_script('wp-deactivation-message', plugins_url('js/message.js', dirname(__FILE__)), array());
 
 
 add_action('plugins_loaded', 'customerly_textdomain');
@@ -47,7 +47,7 @@ function customerly_textdomain()
 /**
  * The core plugin class
  */
-require_once CLY_INCLUDES_PATH . 'class.customerly.php';
+require_once CUSTOMERLY_CHAT_INCLUDES_PATH . 'class.customerly.php';
 
 /**
  * Activation and deactivation hooks
@@ -58,7 +58,6 @@ require_once CLY_INCLUDES_PATH . 'class.customerly.php';
 
 register_activation_hook(__FILE__, 'cly_activation_handler');
 add_action('admin_init', 'cly_redirect');
-
 
 
 register_deactivation_hook(__FILE__, 'cly_deactivation_handler');
@@ -80,11 +79,9 @@ function cly_init_customerly()
     global $customerly;
 
     $customerly = new Customerly();
-    $customerly->version = '2.4';
+    $customerly->version = '2.5';
     $customerly->plugin_basename = plugin_basename(__FILE__);
     $customerly->init();
-
-
 }
 
 
