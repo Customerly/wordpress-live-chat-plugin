@@ -27,11 +27,14 @@ class Customerly_admin
         if (is_admin()) {
             // for Admin Dashboard Only
             // Embed the Script on our Plugin's Option Page Only
-            $page = sanitize_text_field($_GET['page']);
-            if (isset($page) && $page == 'Customerly') {
-                wp_enqueue_script('jquery');
-                wp_enqueue_script('jquery-form');
+            if (isset($_GET['page'])){
+                $page = sanitize_text_field($_GET['page']);
+                if ( $page == 'Customerly') {
+                    wp_enqueue_script('jquery');
+                    wp_enqueue_script('jquery-form');
+                }
             }
+
         }
 
 
