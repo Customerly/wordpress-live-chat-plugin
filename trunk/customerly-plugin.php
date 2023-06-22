@@ -6,10 +6,10 @@
  *
  *
  * @wordpress-plugin
- * Plugin Name:       Live Chat by Customerly - FREE Live Chat & Video Live Chat for WP
+ * Plugin Name:       Live Chat Free for WordPress by Customerly
  * Plugin URI:        https://www.customerly.io/?utm_source=wordpress&utm_medium=plugin&utm_campaign=plugin_uri
  * Description:       Live Chat software to chat with real-time visitors, generate leads, and increase sales.
- * Version:           2.5.2
+ * Version:           2.5.3
  * Author:            Customerly
  * Author URI:        https://www.customerly.io/features/live-chat-plugin-for-wordpress/?utm_source=wordpress&utm_medium=plugin&utm_campaign=plugin_author_uri
  * License:           GPL-2.0+
