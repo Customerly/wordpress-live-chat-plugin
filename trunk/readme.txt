@@ -1,39 +1,39 @@
-=== Live Chat Free for WordPress by Customerly ===
+=== AI Chatbot for WordPress by Customerly ===
 Contributors: lucamicheli
 Donate link: https://www.customerly.io/features/live-chat/?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wordpress_donate_url
-Tags: live chat, free live chat, wp live chat, chatbot, chat plugin,newsletter, funnels, crm,  video live chat, live help, WordPress live chat, chat, live chat plugin, live support plugin, live chat support plugin, chat plugin, support plugin, live help,
+Tags: ai chatbot, live chat, gpt, chatgpt, ai assistant, wp live chat, chatbot, multi-language chat plugin,newsletter, funnels, crm, video live chat, live help, WordPress live chat, chat, live chat plugin, live support plugin, live chat support plugin, chat plugin, support plugin, live help,
 Requires at least: 3.0
 Tested up to: 6.2.2
-Stable tag: 2.5.3
+Stable tag: 2.5.4
 Requires PHP: 5.4
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Live Chat software to chat with real-time visitors, generate leads, and increase sales.
+AI Chatbot to support customers, create engaging messages and send automated emails.
 
 == Description ==
 
-Customerly is the first platform with all the tools and integrations you need for supporting your customers, automate your marketing communications and getting more sales.
+Customerly is the unique platform that blends AI with your live chat to help your team support customers in no time in any language.
 
 Use Customerly to:
 
-* 💬 Live chat with your website visitors in real-time using live chat, automated live chat triggers.
-* ✉️ Engage and capture more leads automatically with live chat triggers and profiling questions.
+* 💬 Live chat with AI to support visitors in real-time.
+* ✉️ Engage and capture more leads automatically with live chat triggers and AI.
 * 📢 Nurture leads by sending automated email marketing with powerful workflows.
 * 👥 Create lists based on your rules and reuse them to send tailored messages.
 * 📧 Send newsletters to your customers with a beautiful email template builder.
 * 😀 Identify automatically your new users and personalize greetings with their name without effort.
 * 💸 Keep your costs under control and save money by adopting a single solution for all your communications via chat and email.
 
-== 💬 Live Chat  ==
+== 💬 AI Chatbot  ==
 
-Collect leads while you sleep and reply to their enquiries via live chat or via email.
+Collect leads while you sleep and reply to their enquiries via live chat or via email on autopilot.
 
 
 Talk to your customers in real-time with a beautiful, super fast and customizable live chat for your WordPress website.
 
 
-The Customerly [Free Live Chat Software ](https://www.customerly.io/features/live-chat-plugin-for-wordpress/?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=live_chat_free)  for your WordPress website will help you with:
+The Customerly [Live Chat Software ](https://www.customerly.io/features/live-chat-plugin-for-wordpress/?utm_medium=wp_plugin&utm_source=wordpress&utm_campaign=wordpress_live_chat)  for your WordPress website will help you with:
 * 🎨 Customizing the live chat to match your brand identity
 * ✅ Creating greeting messages to help you start a conversation
 * ✅  Recover visitors about to abandon your website
@@ -232,14 +232,14 @@ Once you sent the one-shot email campaign or an automated one, check the Email S
 
 
 
-== How to install the Free WordPress Live Chat ==
+== How to install the AI Chatbot ==
 
 [youtube https://www.youtube.com/watch?v=_WZ_YaU3aJQ]
 
 
 == Installation ==
 
-= How to install your free live chat? =
+= How to install your live chat and AI Chatbot? =
 This section describes how to install the live chat plugin and get it working.
 
 If you are installing it directly from the WordPress Plugin Directory follow these steps:
@@ -331,7 +331,7 @@ Once created the contact lists, you can send newsletters, funnels, nps and surve
 
 == Screenshots ==
 
-1. Give your customers the support they deserve with your new Free Live Chat
+1. Give your customers the support they deserve with your new AI Chatbot
 2. Keep live chat under control with the conversation inbox.
 3. Customize your live chat as you prefer. Change Live Chat color, Icon and much more.
 4. Start a Video Live Chat with your customers with just one click.

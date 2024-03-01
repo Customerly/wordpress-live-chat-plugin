@@ -1,17 +1,17 @@
 <?php
 
 /**
- * Live Chat by Customerly
+ * AI Chatbot by Customerly
  *
  *
  *
  * @wordpress-plugin
- * Plugin Name:       Live Chat Free for WordPress by Customerly
+ * Plugin Name:       AI Chatbot for WordPress by Customerly
  * Plugin URI:        https://www.customerly.io/?utm_source=wordpress&utm_medium=plugin&utm_campaign=plugin_uri
- * Description:       Live Chat software to chat with real-time visitors, generate leads, and increase sales.
- * Version:           2.5.3
+ * Description:       AI Chatbot to support customers, create engaging messages and send automated emails.
+ * Version:           2.5.4
  * Author:            Customerly
- * Author URI:        https://www.customerly.io/features/live-chat-plugin-for-wordpress/?utm_source=wordpress&utm_medium=plugin&utm_campaign=plugin_author_uri
+ * Author URI:        https://www.customerly.io/ai/?utm_source=wordpress&utm_medium=plugin&utm_campaign=plugin_author_uri
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Domain Path:       /languages
